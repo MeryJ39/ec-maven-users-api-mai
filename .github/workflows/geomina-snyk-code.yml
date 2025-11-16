@@ -74,7 +74,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: snyk-code
+          name: snyk-code 
           
           path: |
             snyk-code.sarif
