@@ -80,4 +80,5 @@ jobs:
         with:
           name: trivy-image-sarif
           path: trivy-image.sarif
+          
           if-no-files-found: warn
